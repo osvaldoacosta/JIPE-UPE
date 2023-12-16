@@ -1,0 +1,54 @@
+nav {
+  border-style: solid;
+  border-color: yellowgreen;
+
+  margin-right: 50%;
+}
+header {
+  border-style: solid;
+  border-color: green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  border-style: solid;
+  border-color: green;
+  display: flex;
+}
+
+footer {
+  border-style: solid;
+  border-color: green;
+}
+
+article {
+  border-style: solid;
+  border-color: blue;
+}
+aside {
+  border-style: solid;
+  border-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 50%;
+}
+#section-1,
+#section-2 {
+  border-style: solid;
+  border-color: yellow;
+  padding: 3px;
+}
+
+#aside-section-1,
+#aside-section-2 {
+  border-style: solid;
+  border-color: blue;
+}
+
+#left-section {
+  display: flex;
+  flex-direction: column;
+}
